@@ -1,0 +1,171 @@
+body{
+    background-image: url(Imagenes/pokebolas.png);
+    background-size: 5%;
+    background-position: center;
+    box-sizing: border-box;
+
+    font-size: 0.90em; /* Define el tamaño de la fuente */
+   
+    padding: 3%;
+}
+
+nav{
+    font-family: Arial; 
+    background-color: #4e4e4e; 
+    font-size: 100%; 
+    height: 70px;
+    width: 100%;
+}
+
+img{
+    width: 70%;
+    padding: 5%;
+    
+}
+
+.logo3{
+  position: relative;
+  display: block; 
+}
+
+header{
+    width: 1000px;
+    height: 284px;
+    position: relative;
+    background-color: #ffff;
+    background-image: url(Imagenes/FondoHeader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.container-fluid{
+ background-color: #4e4e4e;
+}
+
+.mi-elemento {
+    font-size: 18px;
+    color: #C52900;
+    font-weight: bold;
+    text-decoration: none;
+    /* la position: relative; no permite ver el panel de opciones*/
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+.mi-elemento:not(:last-child)::after {
+    content: "|"; /* Añade un divisor después de cada elemento, excepto el último */
+    margin-left: 10px; 
+  }
+
+  .navbar-nav .nav-item:hover .nav-link {
+    color: #258EA3; /* Cambio de color de letra al pasar el mouse */
+  }
+  
+  /* Estilo para el borde inferior sólido al pasar el mouse */
+  .navbar-nav .nav-item:hover .nav-link {
+    border-bottom: 2px solid #258EA3; /* Borde inferior sólido al pasar el mouse */
+  }
+  
+/*Contenido Principal*/
+.Principal{
+  display: flex;
+  padding: 2%;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9);;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(Imagenes/fuego.gif);
+  background-repeat: repeat-y;
+}
+
+.AreaNoticias{
+  padding: 2%;
+  width: 210px;
+  margin-right: 39px;
+  text-align: justify;
+}
+.Noticias{ 
+  background-color: #ffff;
+  text-align: justify;
+  padding: 20px;
+  list-style-type: none;
+ 
+}
+
+.Titulo2{
+ font-size: 30px;
+ color:  #1d7285;
+ margin-bottom: 12px;;
+}
+
+.fechaNoticia{
+  text-decoration: solid;
+  font-size: small;
+  color:  #4e4e4e;
+  text-decoration: none;
+}
+
+.fechaNoticia:hover {/* hover <-- al pasar el mouse */
+  text-decoration: underline; 
+}
+
+.Titulo4{
+  font-size: medium;
+}
+.parrafo{
+  font-size: small;
+  text-align: justify;
+}
+
+/* Main */
+.ar1{
+  text-align: justify;
+  width: 100%;
+}
+
+.tituloAr1{
+  margin-bottom: 26px;
+  color: #e67d45;
+  font-size: 30px;
+  display: block; 
+  border-bottom: 2px solid; /* Borde inferior sólido */
+}
+
+.ar2{
+  text-align: justify;  
+  width: 100%;
+}
+
+.tituloAr2{
+  margin-bottom: 26px;
+  color:  #7FC4CE;
+  font-size: 30px;
+  display: block; 
+  border-bottom: 2px solid;
+}
+.Articulo{
+  width: 671px;
+  background-color: #ffff;
+  height: 100%;
+  padding: 1%;
+}
+
+.image{
+ width: 100%;
+}
+
+/*Pie de Pagina*/
+
+.pie{
+  display: flex;
+  text-align: center;
+
+  height: 89px;
+  width: 1000px;
+  background-color: #e67d45 ;
+  color: #fff ;
+}
+
